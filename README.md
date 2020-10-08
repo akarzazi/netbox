@@ -14,7 +14,7 @@ Includes basic tools like:
 With docker
 
 ```
-docker run -it akarzazi/netbox:alpine
+docker run -it akarzazi/netbox
 ```
 
 ## Images
@@ -23,7 +23,7 @@ View docker hub https://hub.docker.com/r/akarzazi/netbox
 
 Tags | Dockerfile | OS Version | size
 -----------| -------------| -------------|----
-alpine | [Dockerfile](https://github.com/akarzazi/netbox/blob/main/alpine/Dockerfile) | Alpine 3.12 | 22 MB
+alpine, latest | [Dockerfile](https://github.com/akarzazi/netbox/blob/main/alpine/Dockerfile) | Alpine 3.12 | 22 MB
 ubuntu | [Dockerfile](https://github.com/akarzazi/netbox/blob/main/ubuntu/Dockerfile) | Ubuntu 20.10| 180 MB
 
 

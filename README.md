@@ -9,7 +9,18 @@ Includes basic tools like:
 - ping
 - vi
 
+## Use
+
+With docker
+
+```
+docker run -it akarzazi/netbox:alpine
+```
+
 ## Images
+
+View docker hub https://hub.docker.com/r/akarzazi/netbox
+
 Tags | Dockerfile | OS Version | size
 -----------| -------------| -------------|----
 alpine | [Dockerfile](https://github.com/akarzazi/netbox/blob/main/alpine/Dockerfile) | Alpine 3.12 | 22 MB

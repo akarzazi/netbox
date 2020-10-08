@@ -1,4 +1,4 @@
-# netbox
+# akarzazi/netbox:alpine
 
 Small Docker toolbox for troubleshooting purposes.
 
@@ -8,3 +8,7 @@ Includes basic tools like:
 - nslookup
 - ping
 - vi
+
+## Images
+akarzazi/netbox:alpine
+akarzazi/netbox:ubuntu

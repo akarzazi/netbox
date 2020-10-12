@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: netbox
+  labels:
+    app: netbox
+spec:
+  containers:
+  - name: netbox
+    image: akarzazi/netbox
+    command: ['bash', '-c', 'echo Hello Kubernetes! && sleep 360000']

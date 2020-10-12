@@ -11,10 +11,18 @@ Includes basic tools like:
 
 ## Use
 
-With docker
+With Docker
 
-```
+```bash
 docker run -it akarzazi/netbox
+```
+
+With Kubernetes
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/akarzazi/netbox/main/k8s/as-pod.yml
+
+kubectl exec -it netbox -- /bin/bash
 ```
 
 ## Images

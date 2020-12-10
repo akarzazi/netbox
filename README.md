@@ -3,6 +3,7 @@
 Small Docker toolbox for troubleshooting.
 
 Includes basic tools like:
+- nc
 - curl
 - dig
 - nslookup
